@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = ""; 
+const API_KEY = "3416c88b"; 
 const BASE_URL = "https://www.omdbapi.com/";
 
 export const fetchMovies = async (searchTerm, page = 1, type = "") => {
